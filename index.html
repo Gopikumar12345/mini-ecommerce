@@ -9,74 +9,94 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <body>
-      <!-- HEADER -->
-      <header>
-        <h1>My E-Commerce Store</h1>
-      </header>
+    <!-- HEADER -->
+    <header>
+      <div class="logo">
+        <img src="assets/logo/mi.png" alt="logo" />
+        <h1>My Store</h1>
+      </div>
 
-      <!-- NAVBAR -->
       <nav>
         <a href="#">Home</a>
         <a href="#">Products</a>
         <a href="#">Cart</a>
         <a href="#">Login</a>
       </nav>
+    </header>
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <h2>Welcome to My Store</h2>
 
-      <!-- MAIN CONTENT -->
-      <main>
-        <!-- HERO SECTION -->
-        <section>
-          <h2>Welcome to My Store</h2>
-          <p>
-            Discover high-quality products, trending collections, and unbeatable deals all in one place. 
-            Shop with confidence and enjoy a fast, secure, and seamless online shopping experience.
-          </p>        
-        </section>
-
-        <!-- PRODUCT SECTION -->
-        <section>
-          <h2>Featured Products</h2>
-
-          <article>
-            <h3>Wireless Headphones</h3>
-            <p>
-              Experience premium sound quality with noise cancellation, long battery life, 
-              and a comfortable design perfect for music, gaming, and daily use.
-            </p>
-          </article>
-          
-          <article>
-            <h3>Smart Watch</h3>
-            <p>
-              Stay connected and track your fitness with a stylish smartwatch featuring 
-              heart-rate monitoring, notifications, and all-day battery performance.
-            </p>
-          </article>
-        </section>
-
-        <!-- LOGIN FORM -->
-        <section>
-          <h2>Login Form</h2>
-
-          <form>
-            <label>Email</label><br />
-            <input type="email" placeholder="Enter Email" /><br /><br />
-
-            <label>Password</label><br />
-            <input type="password" placeholder="Enter Password" /><br /><br />
-
-            <button type="submit">Login</button>
-          </form>
-        </section>
-      </main>
-
-      <!-- FOOTER -->
-      <footer>
         <p>
-          © 2026 My E-Commerce Store | All Rights Reserved | Designed for a Modern Shopping Experience
+          Discover high-quality products, trending collections, and unbeatable
+          deals all in one place.
         </p>
-      </footer>
+
+        <button>Shop Now</button>
+      </section>
+
+      <!-- PRODUCT SECTION -->
+      <section class="products">
+        <div class="card">
+          <img src="assets/images/bottle.avif" alt="product" />
+          <h3>Bottle</h3>
+          <p>
+            Premium quality water bottle designed for daily use with durable
+            material and stylish design.
+          </p>
+          <p>₹799</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/Headset2.avif" alt="product" />
+          <h3>Headset</h3>
+
+          <p>
+            High-performance wireless headset with crystal-clear sound and
+            comfortable ear cushions.
+          </p>
+          <p>₹1499</p>
+          <button>Add to Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="assets/images/shoes.avif" alt="product" />
+          <h3>Shoes</h3>
+
+          <p>
+            Stylish and comfortable shoes perfect for running, walking, and
+            everyday fashion wear.
+          </p>
+          <p>₹1999</p>
+          <button>Add to Cart</button>
+        </div>
+      </section>
+      <!-- LOGIN FORM -->
+      <section>
+        <h2>Login Form</h2>
+
+        <form>
+          <label>Email</label><br />
+          <input type="email" placeholder="Enter Email" /><br /><br />
+
+          <label>Password</label><br />
+          <input type="password" placeholder="Enter Password" /><br /><br />
+
+          <button type="submit">Login</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        © 2026 My E-Commerce Store | All Rights Reserved | Designed for a Modern
+        Shopping Experience
+      </p>
+    </footer>
 
     <!-- JavaScript File -->
     <script src="script.js"></script>
